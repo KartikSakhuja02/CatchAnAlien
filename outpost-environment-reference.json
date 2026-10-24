@@ -1,0 +1,233 @@
+{
+  "class": "Lighting",
+  "properties": {
+    "Name": {
+      "type": "string",
+      "value": "Lighting"
+    },
+    "Ambient": {
+      "type": "Color3",
+      "value": [
+        0.52,
+        0.56,
+        0.64
+      ]
+    },
+    "OutdoorAmbient": {
+      "type": "Color3",
+      "value": [
+        0.56,
+        0.62,
+        0.72
+      ]
+    },
+    "ColorShift_Top": {
+      "type": "Color3",
+      "value": [
+        0.98,
+        0.96,
+        0.92
+      ]
+    },
+    "ColorShift_Bottom": {
+      "type": "Color3",
+      "value": [
+        0.48,
+        0.54,
+        0.65
+      ]
+    },
+    "Brightness": {
+      "type": "float",
+      "value": 2.2
+    },
+    "ClockTime": {
+      "type": "float",
+      "value": 14.5
+    },
+    "GeographicLatitude": {
+      "type": "float",
+      "value": 41.73
+    },
+    "GlobalShadows": {
+      "type": "bool",
+      "value": true
+    },
+    "FogColor": {
+      "type": "Color3",
+      "value": [
+        0.7,
+        0.78,
+        0.9
+      ]
+    },
+    "FogStart": {
+      "type": "float",
+      "value": 1500
+    },
+    "FogEnd": {
+      "type": "float",
+      "value": 5000
+    }
+  },
+  "children": [
+    {
+      "class": "Sky",
+      "properties": {
+        "Name": {
+          "type": "string",
+          "value": "CosmicSky"
+        },
+        "SkyboxBk": {
+          "type": "Content",
+          "value": "rbxassetid://159454299"
+        },
+        "SkyboxDn": {
+          "type": "Content",
+          "value": "rbxassetid://159454296"
+        },
+        "SkyboxFt": {
+          "type": "Content",
+          "value": "rbxassetid://159454293"
+        },
+        "SkyboxLf": {
+          "type": "Content",
+          "value": "rbxassetid://159454286"
+        },
+        "SkyboxRt": {
+          "type": "Content",
+          "value": "rbxassetid://159454300"
+        },
+        "SkyboxUp": {
+          "type": "Content",
+          "value": "rbxassetid://159454288"
+        },
+        "CelestialBodiesShown": {
+          "type": "bool",
+          "value": true
+        },
+        "StarCount": {
+          "type": "int",
+          "value": 5000
+        },
+        "SunAngularSize": {
+          "type": "float",
+          "value": 11
+        }
+      },
+      "children": []
+    },
+    {
+      "class": "Atmosphere",
+      "properties": {
+        "Name": {
+          "type": "string",
+          "value": "Atmosphere"
+        },
+        "Density": {
+          "type": "float",
+          "value": 0.1
+        },
+        "Offset": {
+          "type": "float",
+          "value": 0.25
+        },
+        "Color": {
+          "type": "Color3",
+          "value": [
+            0.65,
+            0.78,
+            0.95
+          ]
+        },
+        "Decay": {
+          "type": "Color3",
+          "value": [
+            0.75,
+            0.65,
+            0.9
+          ]
+        },
+        "Glare": {
+          "type": "float",
+          "value": 0.1
+        },
+        "Haze": {
+          "type": "float",
+          "value": 0.2
+        }
+      },
+      "children": []
+    },
+    {
+      "class": "ColorCorrectionEffect",
+      "properties": {
+        "Name": {
+          "type": "string",
+          "value": "ColorCorrection"
+        },
+        "Brightness": {
+          "type": "float",
+          "value": 0.02
+        },
+        "Contrast": {
+          "type": "float",
+          "value": 0.12
+        },
+        "Saturation": {
+          "type": "float",
+          "value": 0.28
+        },
+        "TintColor": {
+          "type": "Color3",
+          "value": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "children": []
+    },
+    {
+      "class": "SunRaysEffect",
+      "properties": {
+        "Name": {
+          "type": "string",
+          "value": "SunRays"
+        },
+        "Intensity": {
+          "type": "float",
+          "value": 0.08
+        },
+        "Spread": {
+          "type": "float",
+          "value": 0.6
+        }
+      },
+      "children": []
+    },
+    {
+      "class": "BloomEffect",
+      "properties": {
+        "Name": {
+          "type": "string",
+          "value": "Bloom"
+        },
+        "Intensity": {
+          "type": "float",
+          "value": 0.18
+        },
+        "Size": {
+          "type": "float",
+          "value": 10
+        },
+        "Threshold": {
+          "type": "float",
+          "value": 0.94
+        }
+      },
+      "children": []
+    }
+  ]
+}
